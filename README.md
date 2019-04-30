@@ -8,3 +8,4 @@ test autocommit: 3
 test autocommit: 4
 test autocommit: 5
 test autocommit: 6
+test autocommit: 7
