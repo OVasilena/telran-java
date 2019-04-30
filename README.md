@@ -26,3 +26,4 @@ test autocommit: 21
 
 test autocommit: 22
 
+test hand README
