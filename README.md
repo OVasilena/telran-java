@@ -24,3 +24,5 @@ test autocommit: 19
 test autocommit: 20
 test autocommit: 21
 
+test autocommit: 22
+
