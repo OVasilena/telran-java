@@ -14,7 +14,7 @@ public class Tree extends Plant {
 
         super.setHeight(getHeight() + TREE_GROWTHRATE);
         System.out.println("In sommer " + getDisplayName() + " grows by "
-                + TREE_GROWTHRATE + " and is " + getHeight() + " cm height");
+                + TREE_GROWTHRATE + " cm and is " + getHeight() + " cm height");
     }
 
     @Override

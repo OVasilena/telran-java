@@ -18,7 +18,8 @@ public abstract class Plant {
 
     private void doSpring() {
         height += growthRate;
-        System.out.println("In spring " + displayName + " grows by " + growthRate + " and is " + height + " cm tall");
+        System.out.println("In spring " + displayName + " grows by " + growthRate
+                + " cm and is " + height + " cm height");
     }
 
     private void doWinter() {
@@ -48,7 +49,9 @@ public abstract class Plant {
             doFall();
             doWinter();
             age++;
+            System.out.println("**************** end of " + age + " year ****************");
             System.out.println(this.toString());
+
         }
 
     }

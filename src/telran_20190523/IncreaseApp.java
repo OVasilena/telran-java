@@ -6,8 +6,9 @@ public class IncreaseApp {
         Plant flower = new Flower(0,0, "Tulpe");
         Plant tree = new Tree(100, 1, "Apfel");
 
+        System.out.println("################## FLOWER ##################");
         flower.doYear(3);
-        System.out.println("*****************");
+        System.out.println("################### TREE ###################");
         tree.doYear(7);
     }
 
